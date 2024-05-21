@@ -38,12 +38,12 @@
 // export default App;
 
 import React from 'react'
-import First from './New_Pj/First'
+import GetApi from './Shivraj_Api/GetApi'
 
 const App = () => {
   return (
     <div>
-      <First/>
+      <GetApi/>
     </div>
   )
 }
