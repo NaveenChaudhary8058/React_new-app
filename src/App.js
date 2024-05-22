@@ -38,12 +38,14 @@
 // export default App;
 
 import React from 'react'
-import GetApi from './Shivraj_Api/GetApi'
+// import GetApi from './Shivraj_Api/GetApi'
+import Login_Sign from './Shivraj_Api/Login_Sign'
 
 const App = () => {
   return (
     <div>
-      <GetApi/>
+      {/* <GetApi/> */}
+      <Login_Sign/>
     </div>
   )
 }
